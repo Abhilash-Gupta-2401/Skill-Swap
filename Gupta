@@ -1,0 +1,28 @@
+-- signup/signin info
+
+CREATE DATABASE Gupta;
+USE Gupta;
+
+CREATE TABLE users (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  name VARCHAR(100) NOT NULL,
+  email VARCHAR(100) NOT NULL UNIQUE,
+  username varchar(100) NOT NULL UNIQUE,
+  phone VARCHAR(20),
+  password VARCHAR(255) NOT NULL
+);
+
+-- post_skill
+
+CREATE TABLE IF NOT EXISTS skills (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100),
+    image TEXT,
+    location VARCHAR(100),
+    email VARCHAR(100),
+    username VARCHAR(50),
+    linkedin TEXT,
+    github TEXT,
+    skill_proficient TEXT,
+    skill_to_learn TEXT
+);

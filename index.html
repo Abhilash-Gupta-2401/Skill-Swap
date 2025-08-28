@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="./css/index.css">
+ 
+</head>
+<body>
+    <div class="container">
+        <h2>Login</h2>
+        <form method="POST" action="login.php">
+            <input type="email" name="email" placeholder="Email" required>
+            
+            <div class="password-wrapper">
+                <input type="password" name="password" id="login-password" placeholder="Password" required>
+                <i class="fa-solid fa-eye toggle-password" onclick="togglePassword('login-password', this)"></i>
+            </div>
+
+            <input type="submit" value="Login" class="center-button">
+        </form>
+        <p style="text-align:center;">
+            <a href="./signup.html">Don't have an account?</a>
+        </p>
+    </div>
+    <script src="./js/index.js"></script>        
+
+</body>
+</html>

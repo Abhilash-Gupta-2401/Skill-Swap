@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    background-image: url(../images/skill.jpg);
+    background-position: 100%;
+    background-size: cover;
+}
+
+.post-skill-form {
+    max-width: 600px;
+    margin: 2em auto;
+    padding: 2em;
+    background-color: rgba(34, 34, 34, 0.26);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-weight: 600;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.0005);
+    backdrop-filter: blur(5px);
+}
+
+.post-skill-form h2 {
+    color: #000000;
+    text-align: center;
+    /* font-weight: bolder; */
+    margin-bottom: 1em;
+}
+
+.post-skill-form label {
+    color: #000000;
+    display: block;
+    margin-top: 1em;
+    font-weight: bold;
+}
+
+.post-skill-form input[type="text"],
+.post-skill-form input[type="email"],
+.post-skill-form input[type="file"],
+.post-skill-form select {
+    width: 100%;
+    padding: 0.5em;
+    margin-top: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.post-skill-form input[type="submit"] {
+    margin-top: 1.5em;
+    background-color: #4CAF50;
+    color: #ffffff;
+    padding: 0.75em 1.5em;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 1em;
+}
+
+.post-skill-form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+div, .back-button{
+   color: #ccc;
+   text-align: center;
+   margin-top: 1em;
+}
+
+.back-button:hover{
+  color: #a9a9a9;
+}
